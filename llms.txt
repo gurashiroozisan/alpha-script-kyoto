@@ -1,0 +1,33 @@
+# Alpha Script Kyoto
+
+> 京都を拠点に、映像・舞台・音声コンテンツ向けの脚本・シナリオ・ナレーション原稿を制作するクリエイティブスタジオです。
+
+Alpha Script Kyoto（アルファスクリプト京都）は、クライアントの想いを丁寧に汲み取り、媒体に最適な言葉へと紡ぐ脚本制作スタジオです。企画段階から納品まで一貫して対応し、映像・音声・舞台など多様なコンテンツ形式に対応します。
+
+## 主要ページ
+
+- [ホーム](https://gurashiroozisan.github.io/alpha-script-kyoto/): スタジオの概要とサービス紹介
+- [About](https://gurashiroozisan.github.io/alpha-script-kyoto/about/): 理念・強み・制作の流れ
+- [Services](https://gurashiroozisan.github.io/alpha-script-kyoto/services/): 提供サービス詳細とFAQ
+- [Works](https://gurashiroozisan.github.io/alpha-script-kyoto/works/): 制作実績
+- [Contact](https://gurashiroozisan.github.io/alpha-script-kyoto/contact/): お問い合わせ
+
+## サービス
+
+- **映像脚本・シナリオ**: CM、企業VP、YouTube、ドキュメンタリー向け
+- **ナレーション・音声原稿**: 音声ガイド、ポッドキャスト、企業ナレーション向け
+- **舞台・朗読脚本**: 舞台公演、朗読会、イベント向け
+
+## 対応エリア
+
+- 拠点: 京都府
+- 全国対応（オンライン打ち合わせ・納品可）
+
+## お問い合わせ
+
+脚本・シナリオ制作のご相談は [Contact ページ](https://gurashiroozisan.github.io/alpha-script-kyoto/contact/) から。
+
+## Optional
+
+- [llms-full.txt](https://gurashiroozisan.github.io/alpha-script-kyoto/llms-full.txt): サイト全体の詳細テキスト版
+- [sitemap.xml](https://gurashiroozisan.github.io/alpha-script-kyoto/sitemap.xml): サイトマップ

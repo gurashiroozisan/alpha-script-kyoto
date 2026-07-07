@@ -1,0 +1,40 @@
+# https://gurashiroozisan.github.io/alpha-script-kyoto/robots.txt
+
+User-agent: *
+Allow: /
+
+# AI Search Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://gurashiroozisan.github.io/alpha-script-kyoto/sitemap.xml
+
+# AI-readable site summary
+# See: https://gurashiroozisan.github.io/alpha-script-kyoto/llms.txt
