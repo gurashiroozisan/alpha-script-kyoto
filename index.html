@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alpha Script | Web運用の専属エンジニア</title>
-  <meta name="description" content="作るだけで終わらせない。Web運用の専属エンジニア。">
+  <meta name="description" content="Alpha Scriptは、最速当日プロトタイプと待たせない運用体制で、Web制作・改善・業務自動化を一貫支援します。">
   <link rel="icon" href="/as-homepage/assets/logo.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +12,37 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = { theme: { extend: { colors: { base:'#111827', accent:'#3B82F6', card:'#1F2937' }, fontFamily:{ sans:['Noto Sans JP','sans-serif'] } } } }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Alpha Script",
+          "url": "https://alphascript-kyoto.github.io/as-homepage/",
+          "inLanguage": "ja"
+        },
+        {
+          "@type": "Organization",
+          "name": "Alpha Script",
+          "url": "https://alphascript-kyoto.github.io/as-homepage/",
+          "logo": "https://alphascript-kyoto.github.io/as-homepage/assets/logo.png"
+        },
+        {
+          "@type": "ProfessionalService",
+          "name": "Alpha Script",
+          "serviceType": "Web制作・Web運用・業務自動化",
+          "url": "https://alphascript-kyoto.github.io/as-homepage/",
+          "areaServed": "JP",
+          "description": "最速当日プロトタイプと待たせない運用体制で、Webの制作から改善まで伴走します。",
+          "provider": {
+            "@type": "Organization",
+            "name": "Alpha Script"
+          }
+        }
+      ]
+    }
   </script>
 </head>
 <body class="bg-base text-slate-100 font-sans">
@@ -166,6 +197,24 @@
     </div>
     <div class="mt-6">
       <a href="/as-homepage/works/" class="inline-flex rounded bg-accent px-6 py-3 font-semibold text-white hover:bg-blue-500">実際の制作事例を見る</a>
+    </div>
+  </section>
+
+  <section class="rounded-2xl border border-slate-800 bg-card p-6 lg:p-8">
+    <h2 class="mb-5 text-2xl font-bold">よくある質問（FAQ）</h2>
+    <div class="space-y-3">
+      <details class="rounded-lg border border-slate-700 bg-slate-900/40 p-4">
+        <summary class="cursor-pointer font-semibold">相談した当日に、何か形になりますか？</summary>
+        <p class="mt-3 text-sm text-slate-300">要件が整理できていれば、最速で当日にプロトタイプの初稿を提示します。まずは方向性を素早く可視化して、判断を止めません。</p>
+      </details>
+      <details class="rounded-lg border border-slate-700 bg-slate-900/40 p-4">
+        <summary class="cursor-pointer font-semibold">小さな修正でも依頼できますか？</summary>
+        <p class="mt-3 text-sm text-slate-300">可能です。月額プランでは文言変更や画像差し替えなどの軽微な更新も、優先着手で待たせない運用を基本に対応します。</p>
+      </details>
+      <details class="rounded-lg border border-slate-700 bg-slate-900/40 p-4">
+        <summary class="cursor-pointer font-semibold">Web制作以外の業務改善もお願いできますか？</summary>
+        <p class="mt-3 text-sm text-slate-300">はい。CSV/Excel作業の自動化やAPI連携など、日々の業務負荷を下げる仕組みづくりまで一貫して支援します。</p>
+      </details>
     </div>
   </section>
 </main>

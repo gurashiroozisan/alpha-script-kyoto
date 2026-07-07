@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Alpha Script</title>
+  <meta name="description" content="Alpha Scriptへのお問い合わせページ。Web制作・運用改善・業務自動化のご相談を無料で受け付けています。">
   <link rel="icon" href="/as-homepage/assets/logo.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +12,29 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = { theme: { extend: { colors: { base:'#111827', accent:'#3B82F6', card:'#1F2937' }, fontFamily:{ sans:['Noto Sans JP','sans-serif'] } } } }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ContactPage",
+          "name": "Contact | Alpha Script",
+          "url": "https://alphascript-kyoto.github.io/as-homepage/contact/",
+          "description": "Alpha Scriptへの問い合わせ受付ページ。",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Alpha Script",
+            "url": "https://alphascript-kyoto.github.io/as-homepage/"
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "Alpha Script",
+          "url": "https://alphascript-kyoto.github.io/as-homepage/"
+        }
+      ]
+    }
   </script>
 </head>
 <body class="bg-base text-slate-100 font-sans">

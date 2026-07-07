@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services | Alpha Script</title>
+  <meta name="description" content="Alpha Scriptの提供サービス一覧。LP制作・コーポレートHP・業務自動化ツール開発と、待たせない運用保守プランを掲載。">
   <link rel="icon" href="/as-homepage/assets/logo.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +12,34 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = { theme: { extend: { colors: { base:'#111827', accent:'#3B82F6', card:'#1F2937' }, fontFamily:{ sans:['Noto Sans JP','sans-serif'] } } } }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "name": "Services | Alpha Script",
+          "url": "https://alphascript-kyoto.github.io/as-homepage/services/",
+          "description": "Web制作・運用保守・業務自動化サービスの一覧ページ。",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Alpha Script",
+            "url": "https://alphascript-kyoto.github.io/as-homepage/"
+          }
+        },
+        {
+          "@type": "Service",
+          "name": "Web制作・運用支援",
+          "provider": {
+            "@type": "Organization",
+            "name": "Alpha Script"
+          },
+          "areaServed": "JP",
+          "serviceType": "LP制作・コーポレートHP・業務自動化・保守運用"
+        }
+      ]
+    }
   </script>
 </head>
 <body class="bg-base text-slate-100 font-sans">

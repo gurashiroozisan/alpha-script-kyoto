@@ -4,13 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Works | Alpha Script</title>
-  <meta name="description" content="制作デモ・ポートフォリオ一覧">
+  <meta name="description" content="Alpha Scriptの制作実績ページ。LP・コーポレートサイト・業務自動化ツールのデモと、課題解決ストーリーを確認できます。">
   <link rel="icon" href="/as-homepage/assets/logo.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>tailwind.config={theme:{extend:{colors:{base:'#111827',accent:'#3B82F6',card:'#1F2937'},fontFamily:{sans:['Noto Sans JP','sans-serif']}}}}</script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "name": "Works | Alpha Script",
+          "url": "https://alphascript-kyoto.github.io/as-homepage/works/",
+          "description": "制作実績とデモ、課題解決ストーリーを紹介するページ。",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Alpha Script",
+            "url": "https://alphascript-kyoto.github.io/as-homepage/"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Alpha Script Works",
+          "itemListOrder": "https://schema.org/ItemListUnordered",
+          "numberOfItems": 10
+        }
+      ]
+    }
+  </script>
 </head>
 <body class="bg-base text-slate-100 font-sans">
 <header class="sticky top-0 z-50 border-b border-slate-800 bg-base/90 backdrop-blur">
@@ -41,6 +65,28 @@
     <div id="portfolioGrid" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
   </section>
 </main>
+<dialog id="storyModal" class="w-full max-w-2xl rounded-2xl border border-slate-700 bg-card p-0 text-slate-100 backdrop:bg-black/70">
+  <div class="border-b border-slate-700 p-5">
+    <div class="flex items-start justify-between gap-4">
+      <div>
+        <p id="storyModalCategory" class="text-xs font-semibold uppercase tracking-widest text-accent"></p>
+        <h2 id="storyModalTitle" class="mt-2 text-xl font-bold"></h2>
+      </div>
+      <button id="storyModalClose" class="rounded border border-slate-600 px-3 py-1 text-sm">閉じる</button>
+    </div>
+  </div>
+  <div class="space-y-4 p-5">
+    <section>
+      <h3 class="text-sm font-semibold text-accent">デモ概要</h3>
+      <p id="storyModalDesc" class="mt-1 text-sm text-slate-300"></p>
+    </section>
+    <section>
+      <h3 class="text-sm font-semibold text-accent">課題解決ストーリー</h3>
+      <p id="storyModalStory" class="mt-1 text-sm leading-relaxed text-slate-300"></p>
+    </section>
+    <a id="storyModalLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex rounded bg-accent px-5 py-2 font-semibold text-white">デモを開く</a>
+  </div>
+</dialog>
 <script>const b=document.getElementById('menu-btn');const m=document.getElementById('mobile-menu');if(b&&m)b.addEventListener('click',()=>m.classList.toggle('hidden'));</script>
 <script src="/as-homepage/js/portfolio.js"></script>
 </body>
