@@ -1,74 +1,23 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services | Alpha Script</title>
-  <meta name="description" content="LP制作・コーポレートHP・業務自動化・月額運用のサービス一覧">
   <link rel="icon" href="/alpha-script-kyoto/assets/logo.png" type="image/png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/alpha-script-kyoto/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script><script>tailwind.config={theme:{extend:{colors:{base:'#111827',accent:'#3B82F6',card:'#1F2937'},fontFamily:{sans:['Noto Sans JP','sans-serif']}}}}</script>
 </head>
-<body>
-  <a href="#main" class="skip-link">メインコンテンツへスキップ</a>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="/alpha-script-kyoto/" class="logo" aria-label="Alpha Script ホーム"><img src="/alpha-script-kyoto/assets/logo.png" alt="Alpha Script" class="logo-img" width="140" height="48"></a>
-      <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
-      <nav id="main-nav" class="main-nav" aria-label="メインナビゲーション">
-        <ul>
-          <li><a href="/alpha-script-kyoto/">Home</a></li>
-          <li><a href="/alpha-script-kyoto/about/">About</a></li>
-          <li><a href="/alpha-script-kyoto/services/" aria-current="page">Services</a></li>
-          <li><a href="/alpha-script-kyoto/works/">Works</a></li>
-          <li><a href="/alpha-script-kyoto/contact/" class="nav-cta">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="page-hero">
-      <div class="container">
-        <p class="section-eyebrow">Services</p>
-        <h1>提供サービス</h1>
-        <p class="page-lead">制作から運用改善まで、専属エンジニアとして継続支援します。</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <header class="section-header"><h2>単発制作メニュー</h2></header>
-        <div class="card-grid pricing-grid">
-          <article class="card pricing-card"><h3>LP制作</h3><p class="price-amount">¥30,000〜</p><p>1ページ構成 / スマホ対応 / ヒーロー・CTA設計</p></article>
-          <article class="card pricing-card pricing-card--popular"><span class="popular-badge">人気</span><h3>コーポレートHP</h3><p class="price-amount">¥100,000〜</p><p>3〜5ページ構成 / 会社概要・実績・問い合わせ</p></article>
-          <article class="card pricing-card"><h3>業務自動化・ツール</h3><p class="price-amount">¥50,000〜</p><p>CSV/Excel自動化 / ダッシュボード / API連携・通知フロー</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt">
-      <div class="container">
-        <header class="section-header"><h2>月額プラン比較</h2></header>
-        <div class="plan-compare-wrap">
-          <table class="plan-compare">
-            <thead>
-              <tr><th>項目</th><th>ベーシック<br>¥5,000/月</th><th>スタンダード<br>¥10,000/月</th><th>グロース<br>¥20,000/月</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>サーバー・ドメイン管理</td><td>◯</td><td>◯</td><td>◯</td></tr>
-              <tr><td>軽微更新</td><td>月1回</td><td>無制限</td><td>無制限</td></tr>
-              <tr><td>改善提案</td><td>-</td><td>-</td><td>月1回</td></tr>
-              <tr><td>分析・機能拡張</td><td>-</td><td>オプション</td><td>◯</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <script src="/alpha-script-kyoto/js/main.js"></script>
+<body class="bg-base text-slate-100 font-sans">
+<header class="sticky top-0 z-50 border-b border-slate-800 bg-base/90 backdrop-blur"><div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8"><a href="/alpha-script-kyoto/"><img src="/alpha-script-kyoto/assets/logo.png" alt="Alpha Script" class="h-10"></a><nav><ul class="flex items-center gap-6 text-sm font-medium"><li><a href="/alpha-script-kyoto/" class="text-slate-300 hover:text-accent">Home</a></li><li><a href="/alpha-script-kyoto/about/" class="text-slate-300 hover:text-accent">About</a></li><li><a href="/alpha-script-kyoto/services/" class="text-accent">Services</a></li><li><a href="/alpha-script-kyoto/works/" class="text-slate-300 hover:text-accent">Works</a></li><li><a href="/alpha-script-kyoto/contact/" class="rounded bg-accent px-4 py-2">Contact</a></li></ul></nav></div></header>
+<main class="mx-auto max-w-6xl px-6 py-16 lg:px-8">
+<h1 class="mb-8 text-3xl font-bold">提供サービス</h1>
+<div class="grid gap-6 md:grid-cols-3">
+  <article class="rounded-xl border border-slate-800 bg-card p-6"><h2 class="text-lg font-bold">LP制作</h2><p class="mt-2 text-2xl font-extrabold text-accent">¥30,000〜</p><p class="mt-3 text-slate-300">1ページ構成 / スマホ対応 / CTA設計</p></article>
+  <article class="relative rounded-xl border-2 border-accent bg-card p-6"><span class="absolute -top-3 right-3 rounded-full bg-accent px-3 py-1 text-xs font-bold">人気</span><h2 class="text-lg font-bold">コーポレートHP</h2><p class="mt-2 text-2xl font-extrabold text-accent">¥100,000〜</p><p class="mt-3 text-slate-300">3〜5ページ / 実績・問い合わせ導線</p></article>
+  <article class="rounded-xl border border-slate-800 bg-card p-6"><h2 class="text-lg font-bold">業務自動化・ツール</h2><p class="mt-2 text-2xl font-extrabold text-accent">¥50,000〜</p><p class="mt-3 text-slate-300">CSV/Excel自動化 / API連携 / 通知フロー</p></article>
+</div>
+<section class="mt-10 rounded-xl border border-slate-800 bg-card p-6"><h2 class="mb-4 text-2xl font-bold">月額プラン比較</h2><div class="overflow-x-auto"><table class="min-w-[720px] w-full text-sm"><thead><tr class="border-b border-slate-700 text-accent"><th class="p-3 text-left">項目</th><th class="p-3">ベーシック<br>¥5,000/月</th><th class="p-3">スタンダード<br>¥10,000/月</th><th class="p-3">グロース<br>¥20,000/月</th></tr></thead><tbody class="text-slate-300"><tr class="border-b border-slate-800"><td class="p-3">サーバー・ドメイン管理</td><td class="p-3 text-center">◯</td><td class="p-3 text-center">◯</td><td class="p-3 text-center">◯</td></tr><tr class="border-b border-slate-800"><td class="p-3">軽微更新</td><td class="p-3 text-center">月1回</td><td class="p-3 text-center">無制限</td><td class="p-3 text-center">無制限</td></tr><tr><td class="p-3">改善提案</td><td class="p-3 text-center">-</td><td class="p-3 text-center">-</td><td class="p-3 text-center">月1回</td></tr></tbody></table></div></section>
+</main>
 </body>
 </html>

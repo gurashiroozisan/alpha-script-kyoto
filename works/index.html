@@ -4,73 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Works | Alpha Script</title>
-  <meta name="description" content="LP・HP・業務改善ツールの制作デモ一覧">
+  <meta name="description" content="制作デモ・ポートフォリオ一覧">
   <link rel="icon" href="/alpha-script-kyoto/assets/logo.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/alpha-script-kyoto/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{base:'#111827',accent:'#3B82F6',card:'#1F2937'},fontFamily:{sans:['Noto Sans JP','sans-serif']}}}}</script>
 </head>
-<body>
-  <a href="#main" class="skip-link">メインコンテンツへスキップ</a>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="/alpha-script-kyoto/" class="logo" aria-label="Alpha Script ホーム"><img src="/alpha-script-kyoto/assets/logo.png" alt="Alpha Script" class="logo-img" width="140" height="48"></a>
-      <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
-      <nav id="main-nav" class="main-nav" aria-label="メインナビゲーション">
-        <ul>
-          <li><a href="/alpha-script-kyoto/">Home</a></li>
-          <li><a href="/alpha-script-kyoto/about/">About</a></li>
-          <li><a href="/alpha-script-kyoto/services/">Services</a></li>
-          <li><a href="/alpha-script-kyoto/works/" aria-current="page">Works</a></li>
-          <li><a href="/alpha-script-kyoto/contact/" class="nav-cta">Contact</a></li>
-        </ul>
-      </nav>
+<body class="bg-base text-slate-100 font-sans">
+<header class="sticky top-0 z-50 border-b border-slate-800 bg-base/90 backdrop-blur">
+  <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
+    <a href="/alpha-script-kyoto/"><img src="/alpha-script-kyoto/assets/logo.png" alt="Alpha Script" class="h-10"></a>
+    <button id="menu-btn" class="md:hidden rounded border border-slate-700 px-3 py-2 text-sm">MENU</button>
+    <nav class="hidden md:block"><ul class="flex items-center gap-6 text-sm font-medium"><li><a href="/alpha-script-kyoto/" class="text-slate-300 hover:text-accent">Home</a></li><li><a href="/alpha-script-kyoto/about/" class="text-slate-300 hover:text-accent">About</a></li><li><a href="/alpha-script-kyoto/services/" class="text-slate-300 hover:text-accent">Services</a></li><li><a href="/alpha-script-kyoto/works/" class="text-accent">Works</a></li><li><a href="/alpha-script-kyoto/contact/" class="rounded bg-accent px-4 py-2 text-white">Contact</a></li></ul></nav>
+  </div>
+  <nav id="mobile-menu" class="hidden border-t border-slate-800 px-6 py-4 md:hidden"><ul class="space-y-3 text-sm"><li><a href="/alpha-script-kyoto/">Home</a></li><li><a href="/alpha-script-kyoto/about/">About</a></li><li><a href="/alpha-script-kyoto/services/">Services</a></li><li><a href="/alpha-script-kyoto/works/">Works</a></li><li><a href="/alpha-script-kyoto/contact/">Contact</a></li></ul></nav>
+</header>
+<main class="mx-auto max-w-6xl px-6 py-16 lg:px-8">
+  <section class="mb-10 rounded-2xl border border-slate-800 bg-card/70 p-8">
+    <h1 class="mb-3 text-3xl font-bold">制作デモ・ポートフォリオ</h1>
+    <p class="text-slate-300">ポートフォリオHubの実デモへ直接アクセスできます。</p>
+    <a href="https://demo-portfolio-six-mu.vercel.app/#works" target="_blank" rel="noopener noreferrer" class="mt-5 inline-flex rounded bg-accent px-5 py-3 font-semibold">ポートフォリオHubを開く</a>
+  </section>
+  <section>
+    <div class="mb-6 grid grid-cols-2 gap-4 lg:grid-cols-4">
+      <div class="rounded-xl border border-slate-800 bg-card p-4 text-center"><div id="statTotal" class="text-2xl font-bold text-accent">37</div><div class="text-sm text-slate-400">全デモ</div></div>
+      <div class="rounded-xl border border-slate-800 bg-card p-4 text-center"><div id="statTool" class="text-2xl font-bold text-accent">22</div><div class="text-sm text-slate-400">業務ツール</div></div>
+      <div class="rounded-xl border border-slate-800 bg-card p-4 text-center"><div id="statLp" class="text-2xl font-bold text-accent">12</div><div class="text-sm text-slate-400">LP</div></div>
+      <div class="rounded-xl border border-slate-800 bg-card p-4 text-center"><div id="statHp" class="text-2xl font-bold text-accent">3</div><div class="text-sm text-slate-400">HP・メディア</div></div>
     </div>
-  </header>
-
-  <main id="main">
-    <section class="page-hero">
-      <div class="container">
-        <p class="section-eyebrow">Works</p>
-        <h1>制作デモ・ポートフォリオ</h1>
-        <p class="page-lead">ポートフォリオHubの実デモへ直接アクセスできます。</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="portfolio-banner">
-          <div>
-            <h2 style="color:#fff;margin-bottom:0.5rem;">全デモはポートフォリオHubで公開中</h2>
-            <p>リンク先は Vercel に統一済み。404問題を解消しました。</p>
-          </div>
-          <a href="https://demo-portfolio-six-mu.vercel.app/#works" class="btn btn-primary" target="_blank" rel="noopener noreferrer">ポートフォリオHubを開く →</a>
-        </div>
-
-        <div class="portfolio-stats">
-          <div class="portfolio-stat"><strong id="statTotal">37</strong><span>全デモ</span></div>
-          <div class="portfolio-stat"><strong id="statTool">22</strong><span>業務ツール</span></div>
-          <div class="portfolio-stat"><strong id="statLp">12</strong><span>LP</span></div>
-          <div class="portfolio-stat"><strong id="statHp">3</strong><span>HP・メディア</span></div>
-        </div>
-
-        <div class="portfolio-toolbar">
-          <div class="portfolio-filters">
-            <button class="portfolio-filter is-active" data-portfolio-filter="all" type="button">注目デモ</button>
-            <button class="portfolio-filter" data-portfolio-filter="tool" type="button">業務ツール</button>
-            <button class="portfolio-filter" data-portfolio-filter="lp" type="button">LP</button>
-            <button class="portfolio-filter" data-portfolio-filter="hp" type="button">HP</button>
-          </div>
-          <p class="portfolio-count" id="portfolioCount">10 件を表示（全37件）</p>
-        </div>
-
-        <div class="portfolio-grid" id="portfolioGrid"></div>
-      </div>
-    </section>
-  </main>
-
-  <script src="/alpha-script-kyoto/js/main.js"></script>
-  <script src="/alpha-script-kyoto/js/portfolio.js"></script>
+    <div class="mb-6 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex flex-wrap gap-2"><button class="rounded border border-slate-700 bg-accent px-3 py-2 text-sm" data-portfolio-filter="all">注目デモ</button><button class="rounded border border-slate-700 px-3 py-2 text-sm" data-portfolio-filter="tool">業務ツール</button><button class="rounded border border-slate-700 px-3 py-2 text-sm" data-portfolio-filter="lp">LP</button><button class="rounded border border-slate-700 px-3 py-2 text-sm" data-portfolio-filter="hp">HP</button></div>
+      <p id="portfolioCount" class="text-sm text-slate-400">10 件を表示（全37件）</p>
+    </div>
+    <div id="portfolioGrid" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
+  </section>
+</main>
+<script>const b=document.getElementById('menu-btn');const m=document.getElementById('mobile-menu');if(b&&m)b.addEventListener('click',()=>m.classList.toggle('hidden'));</script>
+<script src="/alpha-script-kyoto/js/portfolio.js"></script>
 </body>
 </html>
