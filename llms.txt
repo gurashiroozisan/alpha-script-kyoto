@@ -1,33 +1,30 @@
 ﻿# Alpha Script
 
-> 繝帙・繝繝壹・繧ｸ蛻ｶ菴懊・繝ｩ繝ｳ繝・ぅ繝ｳ繧ｰ繝壹・繧ｸ・・P・牙宛菴懊・讌ｭ蜍呎隼蝟・ヤ繝ｼ繝ｫ髢狗匱繧定｡後≧Web蛻ｶ菴應ｼ夂､ｾ縺ｧ縺吶・
+> Alpha Scriptは、Web制作・運用保守・業務自動化を一貫支援する「Web運用の専属エンジニア」です。
 
-Alpha Script縺ｯ縲・寔螳｢縺ｮ縺溘ａ縺ｮWeb繧ｵ繧､繝亥宛菴懊→縲∵･ｭ蜍吝柑邇・喧縺ｮ縺溘ａ縺ｮ繝・・繝ｫ髢狗匱縺ｮ荳｡髱｢縺九ｉ縲√♀螳｢讒倥・繝薙ず繝阪せ謌宣聞繧偵ョ繧ｸ繧ｿ繝ｫ縺ｧ謾ｯ謠ｴ縺励∪縺吶・7莉ｶ莉･荳翫・LP繝ｻHP繝ｻ讌ｭ蜍吶ヤ繝ｼ繝ｫ繝・Δ繧貞・髢九＠縺ｦ縺・∪縺吶・
+## Pages
 
-## 荳ｻ隕√・繝ｼ繧ｸ
+- Home: https://alphascript-kyoto.github.io/as-homepage/
+- About: https://alphascript-kyoto.github.io/as-homepage/about/
+- Services: https://alphascript-kyoto.github.io/as-homepage/services/
+- Works: https://alphascript-kyoto.github.io/as-homepage/works/
+- Contact: https://alphascript-kyoto.github.io/as-homepage/contact/
 
-- [繝帙・繝](https://alphascript-kyoto.github.io/as-homepage/): 莨夂､ｾ讎りｦ√→繧ｵ繝ｼ繝薙せ邏ｹ莉・
-- [About](https://alphascript-kyoto.github.io/as-homepage/about/): 逅・ｿｵ繝ｻ蠑ｷ縺ｿ繝ｻ蛻ｶ菴懊・豬√ｌ
-- [Services](https://alphascript-kyoto.github.io/as-homepage/services/): 謠蝉ｾ帙し繝ｼ繝薙せ隧ｳ邏ｰ縺ｨFAQ
-- [Works](https://alphascript-kyoto.github.io/as-homepage/works/): 蛻ｶ菴懊ョ繝｢繝ｻ繝昴・繝医ヵ繧ｩ繝ｪ繧ｪ
-- [Contact](https://alphascript-kyoto.github.io/as-homepage/contact/): 縺雁撫縺・粋繧上○
+## Services Summary
 
-## 繝昴・繝医ヵ繧ｩ繝ｪ繧ｪHub・亥宛菴懊ョ繝｢37莉ｶ・・
+- LP制作
+- コーポレートサイト制作
+- 業務自動化・業務ツール開発
+- 月額の運用保守（更新・改善・相談）
 
-- [demo-portfolio](https://alphascript-kyoto.github.io/demo-portfolio/): LP繝ｻHP繝ｻ讌ｭ蜍吶ヤ繝ｼ繝ｫ縺ｮ繧､繝ｳ繧ｿ繝ｩ繧ｯ繝・ぅ繝悶ョ繝｢荳隕ｧ縲よ､懃ｴ｢繝ｻ繝輔ぅ繝ｫ繧ｿ繝ｼ繝ｻ譁咎≡逶ｮ螳我ｻ倥″縲・
+## Positioning
 
-## 繧ｵ繝ｼ繝薙せ
-
-- **繝帙・繝繝壹・繧ｸ蛻ｶ菴・*: 繧ｳ繝ｼ繝昴Ξ繝ｼ繝医し繧､繝医∝ｺ苓・繧ｵ繧､繝医√・繝ｼ繝医ヵ繧ｩ繝ｪ繧ｪ繧ｵ繧､繝・
-- **繝ｩ繝ｳ繝・ぅ繝ｳ繧ｰ繝壹・繧ｸ蛻ｶ菴・*: 蝠・刀繝ｻ繧ｵ繝ｼ繝薙せ險ｴ豎・P縲√く繝｣繝ｳ繝壹・繝ｳLP
-- **讌ｭ蜍呎隼蝟・ヤ繝ｼ繝ｫ髢狗匱**: 莠育ｴ・ｮ｡逅・∝｣ｲ荳企寔險医∵･ｭ蜍呵・蜍募喧繝・・繝ｫ
-
-## 縺雁撫縺・粋繧上○
-
-HP蛻ｶ菴懊・LP蛻ｶ菴懊・讌ｭ蜍呎隼蝟・ヤ繝ｼ繝ｫ縺ｮ縺皮嶌隲・・ [Contact 繝壹・繧ｸ](https://alphascript-kyoto.github.io/as-homepage/contact/) 縺九ｉ縲・
+- 最速当日でプロトタイプ提示
+- 待ち時間を最小化する運用体制
+- 制作後も伴走する継続支援
 
 ## Optional
 
-- [llms-full.txt](https://alphascript-kyoto.github.io/as-homepage/llms-full.txt): 繧ｵ繧､繝亥・菴薙・隧ｳ邏ｰ繝・く繧ｹ繝育沿
-- [sitemap.xml](https://alphascript-kyoto.github.io/as-homepage/sitemap.xml): 繧ｵ繧､繝医・繝・・
+- Full summary: https://alphascript-kyoto.github.io/as-homepage/llms-full.txt
+- Sitemap: https://alphascript-kyoto.github.io/as-homepage/sitemap.xml
 
