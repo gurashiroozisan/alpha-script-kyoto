@@ -35,4 +35,18 @@
       lastScroll = currentScroll;
     }, { passive: true });
   }
+
+  // Simple CTA text switcher for quick A/B testing
+  const mainCta = document.getElementById('main-cta');
+  const variants = document.querySelectorAll('.cta-variant');
+  if (mainCta && variants.length > 0) {
+    variants.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        variants.forEach(function (b) { b.classList.remove('is-active'); });
+        btn.classList.add('is-active');
+        const text = btn.getAttribute('data-cta-text');
+        if (text) mainCta.textContent = text;
+      });
+    });
+  }
 })();

@@ -274,6 +274,61 @@ ul, ol {
   gap: 1rem;
 }
 
+.hero-engineer__layout {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.hero-engineer__panel {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 12px 30px rgba(17, 24, 39, 0.12);
+}
+
+.hero-engineer__panel h2 {
+  font-size: 1.05rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-primary);
+}
+
+.hero-engineer__panel ul {
+  list-style: none;
+  margin-bottom: 0.75rem;
+}
+
+.hero-engineer__panel li {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.3rem;
+}
+
+.cta-variants {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.cta-variant {
+  border: 1px solid var(--color-border);
+  background: #fff;
+  color: var(--color-text-muted);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+}
+
+.cta-variant.is-active {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
 /* Buttons */
 .btn {
   display: inline-flex;
@@ -320,6 +375,60 @@ ul, ol {
   font-size: 1.6rem;
   color: var(--color-primary);
   margin-bottom: 0.75rem;
+}
+
+.pricing-card {
+  position: relative;
+}
+
+.pricing-card--popular {
+  border: 2px solid var(--color-primary);
+}
+
+.popular-badge {
+  position: absolute;
+  top: -10px;
+  right: 14px;
+  background: linear-gradient(135deg, #f59e0b, #f97316);
+  color: #fff;
+  font-size: 0.74rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+}
+
+.plan-compare-wrap {
+  overflow-x: auto;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 26px rgba(20, 41, 90, 0.06);
+}
+
+.plan-compare {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+}
+
+.plan-compare th,
+.plan-compare td {
+  border-bottom: 1px solid var(--color-border);
+  padding: 0.8rem 0.9rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.plan-compare th:first-child,
+.plan-compare td:first-child {
+  text-align: left;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.plan-compare thead th {
+  background: var(--color-bg-alt);
+  color: var(--color-primary);
 }
 
 /* Sections */
@@ -1155,6 +1264,10 @@ ul, ol {
 }
 
 @media (max-width: 768px) {
+  .hero-engineer__layout {
+    grid-template-columns: 1fr;
+  }
+
   .portfolio-stats {
     grid-template-columns: repeat(2, 1fr);
   }
