@@ -2,7 +2,7 @@
   <rect width="1200" height="630" fill="#faf8f4"/>
   <rect x="60" y="60" width="1080" height="510" rx="24" fill="#1a3a5c" opacity="0.05"/>
   <circle cx="600" cy="280" r="60" fill="#1a3a5c"/>
-  <text x="600" y="295" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#fff">±</text>
+  <text x="600" y="295" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#fff">&#945;</text>
   <text x="600" y="400" text-anchor="middle" font-family="Georgia, serif" font-size="42" fill="#1a3a5c">Alpha Script Kyoto</text>
-  <text x="600" y="450" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#6b5f50">¬ýn,û·Êêª6\</text>
+  <text x="600" y="450" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#6b5f50">HP / LP / Business Tools</text>
 </svg>

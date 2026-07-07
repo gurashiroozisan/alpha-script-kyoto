@@ -1,6 +1,6 @@
 # Alpha Script Kyoto
 
-京都を拠点に脚本・シナリオ制作を行うクリエイティブスタジオの公式ウェブサイトです。
+京都を拠点にHP制作・LP制作・業務改善ツール開発を行うWeb制作会社の公式ウェブサイトです。
 
 **公開URL（GitHub Pages）:** https://gurashiroozisan.github.io/alpha-script-kyoto/
 
@@ -8,7 +8,7 @@
 
 ```
 ├── index.html          # トップページ
-├── about/              # スタジオについて
+├── about/              # 会社について
 ├── services/           # サービス・FAQ
 ├── works/              # 制作実績
 ├── contact/            # お問い合わせ
