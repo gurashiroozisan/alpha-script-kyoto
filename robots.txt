@@ -1,4 +1,4 @@
-# https://gurashiroozisan.github.io/alpha-script-kyoto/robots.txt
+# https://alphascript-kyoto.github.io/alpha-script-kyoto/robots.txt
 
 User-agent: *
 Allow: /
@@ -34,7 +34,7 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://gurashiroozisan.github.io/alpha-script-kyoto/sitemap.xml
+Sitemap: https://alphascript-kyoto.github.io/alpha-script-kyoto/sitemap.xml
 
 # AI-readable site summary
-# See: https://gurashiroozisan.github.io/alpha-script-kyoto/llms.txt
+# See: https://alphascript-kyoto.github.io/alpha-script-kyoto/llms.txt

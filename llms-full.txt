@@ -36,7 +36,7 @@ Alpha Scriptは「Alpha（最初の一歩）」と「Script（仕組み・自動
 ## Portfolio Hub
 
 制作デモ37件を公開:
-URL: https://gurashiroozisan.github.io/demo-portfolio/
+URL: https://alphascript-kyoto.github.io/demo-portfolio/
 
 内訳:
 - 業務ツール: 22件（CRM、カンバン、売上集計、予約管理など）
@@ -46,4 +46,4 @@ URL: https://gurashiroozisan.github.io/demo-portfolio/
 ## Contact
 
 HP制作・LP制作・業務改善ツールのご相談:
-https://gurashiroozisan.github.io/alpha-script-kyoto/contact/
+https://alphascript-kyoto.github.io/alpha-script-kyoto/contact/

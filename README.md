@@ -2,7 +2,7 @@
 
 HP制作・LP制作・業務改善ツール開発を行うWeb制作会社の公式ウェブサイトです。
 
-**公開URL（GitHub Pages）:** https://gurashiroozisan.github.io/alpha-script-kyoto/
+**公開URL（GitHub Pages）:** https://alphascript-kyoto.github.io/alpha-script-kyoto/
 
 ## サイト構成
 
@@ -30,7 +30,7 @@ git init
 git add .
 git commit -m "Initial commit: Alpha Script Kyoto website"
 git branch -M main
-git remote add origin https://github.com/gurashiroozisan/alpha-script-kyoto.git
+git remote add origin https://github.com/AlphaScript-kyoto/alpha-script-kyoto.git
 git push -u origin main
 ```
 
@@ -42,14 +42,14 @@ git push -u origin main
 4. **Branch** で `main` / `/ (root)` を選択
 5. **Save** をクリック
 
-数分後、 https://gurashiroozisan.github.io/alpha-script-kyoto/ で公開されます。
+数分後、 https://alphascript-kyoto.github.io/alpha-script-kyoto/ で公開されます。
 
 ### 3. カスタムドメイン（任意）
 
 独自ドメインを使う場合:
 
 1. リポジトリ直下に `CNAME` ファイルを作成し、ドメイン名を記述
-2. DNS で CNAME レコードを `gurashiroozisan.github.io` に向ける
+2. DNS で CNAME レコードを `alphascript-kyoto.github.io` に向ける
 3. GitHub Pages 設定でカスタムドメインを入力
 4. 全 HTML 内の URL を新ドメインに差し替え（`sitemap.xml`, `llms.txt`, `robots.txt`, canonical タグ等）
 
