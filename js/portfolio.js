@@ -1,8 +1,8 @@
 /**
  * Portfolio data from demo-portfolio hub (for work tool)
- * Demo base URL: https://gurashiroozisan.github.io/demo-portfolio/
+ * Demo base URL: https://demo-portfolio-six-mu.vercel.app/
  */
-const DEMO_PORTFOLIO_BASE = 'https://gurashiroozisan.github.io/demo-portfolio/';
+const DEMO_PORTFOLIO_BASE = 'https://demo-portfolio-six-mu.vercel.app/';
 const DEMO_PORTFOLIO_HUB = DEMO_PORTFOLIO_BASE + '#works';
 
 const PORTFOLIO = [
@@ -43,7 +43,7 @@ function renderPortfolioCard(item) {
   return `
     <a href="${demoUrl(item.url)}" class="portfolio-card" target="_blank" rel="noopener noreferrer" data-type="${item.type}">
       <div class="portfolio-card__thumb">
-        <img src="${demoThumb(item.thumb)}" alt="${item.title}" loading="lazy" width="400" height="225">
+        <img src="${demoThumb(item.thumb)}" alt="${item.title}" loading="lazy" width="400" height="225" onerror="this.src='/alpha-script-kyoto/assets/logo.png';this.style.objectFit='contain';this.style.padding='1rem';">
         <span class="${badgeClass(item.badge)}">${item.badge}</span>
       </div>
       <div class="portfolio-card__body">
