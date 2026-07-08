@@ -22,7 +22,7 @@
   setInterval(function () {
     index = (index + 1) % slides.length;
     showSlide(index);
-  }, 3200);
+  }, 5800);
 
   showSlide(0);
 })();
