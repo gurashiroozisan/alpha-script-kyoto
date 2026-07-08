@@ -86,7 +86,7 @@ body {
 
 .site-header-logo {
   width: auto;
-  height: clamp(2.75rem, 5vw, 3.5rem);
+  height: clamp(3.5rem, 7vw, 4.75rem);
   object-fit: contain;
   filter: drop-shadow(0 0 16px rgba(59, 130, 246, 0.18));
 }
@@ -109,8 +109,9 @@ body {
 }
 
 .plan-lead {
-  color: #e2e8f0;
-  line-height: 1.75;
+  color: #f8fafc;
+  line-height: 1.85;
+  font-weight: 400;
 }
 
 /* ── Layout & breathing room ── */
@@ -285,8 +286,9 @@ body {
   max-width: 40rem;
   margin-bottom: 2rem;
   font-size: clamp(0.95rem, 2vw, 1.05rem);
-  line-height: 1.85;
+  line-height: 2;
   color: #cbd5e1;
+  text-align: center;
 }
 
 .btn-contact-glow {
