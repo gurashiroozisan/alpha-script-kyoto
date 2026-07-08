@@ -9,8 +9,8 @@
   --as-section-gap: clamp(4.5rem, 8vw, 7rem);
   --as-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   --as-transition: 0.35s var(--as-ease-out);
-  --as-site-max: min(92rem, calc(100vw - 2.5rem));
-  --as-site-gutter: clamp(1.25rem, 2.5vw, 2.75rem);
+  --as-site-max: min(92rem, 100vw);
+  --as-site-gutter: clamp(1rem, 2.5vw, 2.75rem);
 }
 
 html {
@@ -220,6 +220,11 @@ body {
   align-items: center;
 }
 
+.hero-firstview__copy {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .hero-firstview__copy,
 .hero-showcase {
   min-width: 0;
@@ -285,6 +290,39 @@ body {
 @keyframes hero-diff-in {
   from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-diff-item > span:last-child {
+  min-width: 0;
+  flex: 1;
+}
+
+.hero-cta-row {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  max-width: 100%;
+  gap: 0.65rem;
+}
+
+.hero-cta-row .btn-cta {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+  .hero-cta-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .hero-cta-row .btn-cta {
+    width: auto;
+    max-width: none;
+  }
 }
 
 .hero-diff-item__icon {
@@ -447,14 +485,14 @@ body {
 .hero-showcase__progress span {
   display: block;
   height: 100%;
+  width: 0%;
   border-radius: inherit;
   background: linear-gradient(90deg, var(--as-accent), #60a5fa);
-  animation: hero-progress-fill 4.8s var(--as-ease-out) infinite;
+  transition: width linear;
 }
 
-@keyframes hero-progress-fill {
-  0% { width: 0 !important; }
-  70%, 100% { width: var(--target, 92%) !important; }
+.hero-showcase__progress--slide {
+  margin-top: 1.25rem;
 }
 
 .hero-showcase__status {
@@ -474,8 +512,6 @@ body {
   50% { opacity: 0.65; }
 }
 
-.hero-showcase__slide--1 .hero-showcase__progress span { --target: 92%; }
-.hero-showcase__slide--2 .hero-showcase__progress span { --target: 100%; }
 
 .hero-showcase__metrics {
   display: grid;
@@ -507,12 +543,10 @@ body {
 @media (max-width: 1023px) {
   .hero-firstview {
     min-height: auto;
-    margin-left: calc(-1 * var(--as-site-gutter));
-    margin-right: calc(-1 * var(--as-site-gutter));
-    width: calc(100% + 2 * var(--as-site-gutter));
+    margin: 0;
+    width: 100%;
     max-width: 100%;
-    padding-left: max(1rem, env(safe-area-inset-left, 0px) + 0.85rem);
-    padding-right: max(1rem, env(safe-area-inset-right, 0px) + 0.85rem);
+    padding: 1.15rem 1rem;
     border-radius: 0.75rem;
   }
 
@@ -523,10 +557,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  :root {
-    --as-site-gutter: 0.85rem;
-  }
-
   .hero-eyebrow {
     letter-spacing: 0.12em;
     font-size: 0.7rem;
@@ -563,20 +593,6 @@ body {
 
   .hero-diff-item__sub {
     font-size: 0.7rem;
-  }
-
-  .hero-cta-row {
-    flex-direction: column;
-    align-items: stretch;
-    width: 100%;
-    gap: 0.65rem;
-  }
-
-  .hero-cta-row .btn-cta {
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-size: 0.9rem;
   }
 
   .hero-showcase__screen {
@@ -842,7 +858,6 @@ body {
 
   .hero-orb,
   .hero-showcase__status--live,
-  .hero-showcase__progress span,
   .hero-diff-item,
   .hero-showcase {
     animation: none !important;
