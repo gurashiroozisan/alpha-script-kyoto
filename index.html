@@ -47,9 +47,9 @@
   </script>
 </head>
 <body class="bg-base text-slate-100 font-sans">
-<header class="sticky top-0 z-50 border-b border-slate-800 bg-base/90 backdrop-blur">
-  <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
-    <a href="/as-homepage/"><img src="/as-homepage/assets/logo.png" alt="Alpha Script" class="h-10 w-auto"></a>
+<header class="site-header sticky top-0 z-50 border-b border-slate-800 bg-base/90 backdrop-blur">
+  <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-3 lg:px-8 lg:py-4">
+    <a href="/as-homepage/" class="site-header-brand"><img src="/as-homepage/assets/logo.png" alt="Alpha Script" class="site-header-logo"></a>
     <button id="menu-btn" class="md:hidden rounded border border-slate-700 px-3 py-2 text-sm">MENU</button>
     <nav id="menu" class="hidden md:block">
       <ul class="flex items-center gap-6 text-sm font-medium">
@@ -75,17 +75,12 @@
 <main class="page-main mx-auto max-w-6xl px-6 lg:px-8">
   <section class="page-section hero-panel rounded-2xl border border-slate-800 bg-card/60">
     <div class="hero-content">
-      <div class="hero-head">
-        <div class="hero-head-text">
-          <p class="hero-eyebrow mb-4 text-sm uppercase text-accent">Dedicated Web Engineer</p>
-          <h1 class="hero-title mb-0 text-slate-50">
-            <span class="hero-title-line">「作る」だけで終わらせない。</span>
-            <span class="hero-title-line">Web運用の専属エンジニア。</span>
-          </h1>
-        </div>
-        <img src="/as-homepage/assets/logo.png" alt="Alpha Script ロゴ" class="hero-logo">
-      </div>
-      <p class="hero-lead mt-6 max-w-3xl text-base text-slate-300 lg:mt-8 lg:text-lg">小規模事業者・店舗・士業向けに、Webサイト制作から業務効率化ツールまで一貫対応。プロトタイプは最速当日完成、修正依頼も止めずに回せる運用体制で「待たなくていい」安心を届けます。</p>
+      <p class="hero-eyebrow mb-4 text-sm uppercase text-accent">Dedicated Web Engineer</p>
+      <h1 class="hero-title mb-6 text-slate-50">
+        <span class="hero-title-line">「作る」だけで終わらせない。</span>
+        <span class="hero-title-line">Web運用の専属エンジニア。</span>
+      </h1>
+      <p class="hero-lead max-w-3xl text-base text-slate-300 lg:text-lg">小規模事業者・店舗・士業向けに、Webサイト制作から業務効率化ツールまで一貫対応。プロトタイプは最速当日完成、修正依頼も止めずに回せる運用体制で「待たなくていい」安心を届けます。</p>
     </div>
     <div class="mt-10 flex flex-wrap gap-4">
       <a href="/as-homepage/contact/" class="btn-cta btn-cta-primary">無料相談する</a>
@@ -204,6 +199,16 @@
     </div>
     <div class="mt-10" data-reveal>
       <a href="/as-homepage/works/" class="btn-cta btn-cta-primary">実際の制作事例を見る</a>
+    </div>
+  </section>
+
+  <section id="contact" class="page-section contact-cta" aria-labelledby="contact-heading">
+    <div class="contact-cta__inner">
+      <p class="contact-badge" data-reveal><span class="contact-badge__dot" aria-hidden="true"></span>Contact</p>
+      <h2 id="contact-heading" class="contact-cta__title" data-reveal>まず、無料相談から。</h2>
+      <p class="contact-cta__lead" data-reveal>Webサイト制作・運用改善・業務自動化について、現状をヒアリングし、最適な進め方とプランをご提案します。費用・期間・効果について、まずはお気軽にご相談ください。</p>
+      <a href="/as-homepage/contact/" class="btn-contact-glow" data-reveal>お問い合わせはこちら <span aria-hidden="true">→</span></a>
+      <p class="contact-cta__note" data-reveal>返信は通常1営業日以内</p>
     </div>
   </section>
 

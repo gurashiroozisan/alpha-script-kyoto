@@ -76,43 +76,19 @@ body {
   width: 100%;
 }
 
-.hero-head {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 1.25rem 2rem;
-  align-items: start;
-  width: 100%;
+/* ── Site header ── */
+
+.site-header-brand {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
 }
 
-.hero-head-text {
-  min-width: 0;
-}
-
-.hero-logo {
+.site-header-logo {
   width: auto;
-  height: auto;
-  max-width: clamp(72px, 10vw, 120px);
-  max-height: clamp(56px, 8vw, 96px);
+  height: clamp(2.75rem, 5vw, 3.5rem);
   object-fit: contain;
-  flex-shrink: 0;
-  justify-self: end;
-  margin-top: 0.15rem;
-  filter: drop-shadow(0 0 20px rgba(59, 130, 246, 0.2));
-}
-
-@media (max-width: 520px) {
-  .hero-head {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-logo {
-    order: -1;
-    justify-self: start;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    max-width: 88px;
-    max-height: 68px;
-  }
+  filter: drop-shadow(0 0 16px rgba(59, 130, 246, 0.18));
 }
 
 .section-label {
@@ -246,6 +222,112 @@ body {
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
 }
 
+/* ── Contact CTA (XAIREX-inspired) ── */
+
+.contact-cta {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  background:
+    linear-gradient(rgba(59, 130, 246, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.04) 1px, transparent 1px),
+    radial-gradient(ellipse at 50% 0%, rgba(59, 130, 246, 0.12) 0%, transparent 55%),
+    var(--as-card);
+  background-size: 28px 28px, 28px 28px, auto, auto;
+}
+
+.contact-cta__inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: clamp(2.5rem, 6vw, 4rem) clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.contact-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid rgba(59, 130, 246, 0.45);
+  border-radius: 999px;
+  font-family: 'Inter', 'Noto Sans JP', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--as-accent);
+}
+
+.contact-badge__dot {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--as-accent);
+  box-shadow: 0 0 8px var(--as-accent);
+}
+
+.contact-cta__title {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  color: var(--as-accent);
+  margin-bottom: 1.25rem;
+}
+
+.contact-cta__lead {
+  max-width: 40rem;
+  margin-bottom: 2rem;
+  font-size: clamp(0.95rem, 2vw, 1.05rem);
+  line-height: 1.85;
+  color: #cbd5e1;
+}
+
+.btn-contact-glow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 1rem 2rem;
+  border-radius: 0.35rem;
+  background: var(--as-accent);
+  color: #fff;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow:
+    0 0 0 1px rgba(59, 130, 246, 0.5),
+    0 0 28px rgba(59, 130, 246, 0.45),
+    0 8px 24px rgba(59, 130, 246, 0.25);
+  transition:
+    background-color var(--as-transition),
+    box-shadow var(--as-transition),
+    transform var(--as-transition);
+}
+
+.btn-contact-glow:hover {
+  background: var(--as-accent-hover);
+  color: #fff;
+  box-shadow:
+    0 0 0 1px rgba(59, 130, 246, 0.6),
+    0 0 40px rgba(59, 130, 246, 0.55),
+    0 12px 32px rgba(59, 130, 246, 0.35);
+  transform: translateY(-2px);
+}
+
+.contact-cta__note {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
 /* ── Reduced motion ── */
 
 @media (prefers-reduced-motion: reduce) {
@@ -265,6 +347,10 @@ body {
   }
 
   .btn-cta:hover {
+    transform: none;
+  }
+
+  .btn-contact-glow:hover {
     transform: none;
   }
 }
