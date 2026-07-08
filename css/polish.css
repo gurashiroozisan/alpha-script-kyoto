@@ -68,6 +68,29 @@ body {
   line-height: 1.85;
 }
 
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.hero-logo {
+  width: auto;
+  height: auto;
+  max-width: 140px;
+  max-height: 110px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 20px rgba(59, 130, 246, 0.2));
+}
+
+@media (min-width: 768px) {
+  .hero-logo {
+    max-width: 160px;
+    max-height: 120px;
+  }
+}
+
 .section-label {
   font-family: 'Inter', 'Noto Sans JP', sans-serif;
   font-weight: 500;
